@@ -1,4 +1,4 @@
-FROM node:8.9.0
+FROM node:8.15
 
 WORKDIR /deck-gl
 ENV PATH /deck-gl/node_modules/.bin:$PATH
